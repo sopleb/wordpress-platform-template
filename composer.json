@@ -1,0 +1,126 @@
+{
+    "name": "johnpbloch/wordpress",
+    "description": "WordPress is open source software you can use to create a beautiful website, blog, or app.",
+    "keywords": [
+        "wordpress",
+        "blog",
+        "cms"
+    ],
+    "type": "package",
+    "homepage": "http://wordpress.org/",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "WordPress Community",
+            "homepage": "http://wordpress.org/about/"
+        }
+    ],
+    "support": {
+        "issues": "http://core.trac.wordpress.org/",
+        "forum": "http://wordpress.org/support/",
+        "wiki": "http://codex.wordpress.org/",
+        "irc": "irc://irc.freenode.net/wordpress",
+        "source": "http://core.trac.wordpress.org/browser"
+    },
+    "require": {
+        "php": ">=5.6.20",
+        "johnpbloch/wordpress-core-installer": "^1.0 || ^2.0",
+        "johnpbloch/wordpress-core": "5.7.2",
+        "platformsh/config-reader": "^2.4",
+        "wp-cli/wp-cli-bundle": "^2.4",
+        "psy/psysh": "^0.10.6",
+        "sopleb/http-security": "^1.0.1",
+		"kruss/redis-cache":"~2.0.9",
+		"automattic/wp-super-cache":"~1.7.3",
+		"wpchefgadget/limit-login-attempts-reloaded":"~2.9.0",
+		"wpwhitesecurity/wp-2fa":"~1.6.1"
+    },
+    "scripts": {},
+    "extra": {
+        "installer-paths": {
+            "wordpress/wp-content/plugins/{$name}": [
+                "type:wordpress-plugin"
+            ],
+            "wordpress/wp-content/themes/{$name}": [
+                "type:wordpress-theme"
+            ],
+            "wordpress/wp-content/mu-plugins/{$name}": [
+                "type:wordpress-muplugin"
+            ]
+        }
+    },
+    "repositories": {
+        "0": {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        "sopleb": {
+            "type": "vcs",
+            "url": "https://github.com/sopleb/http-security"
+        },
+        "redis": {
+            "type": "package",
+            "package": {
+                "name": "kruss/redis-cache",
+                "version": "2.0.9",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                    "type": "svn",
+                    "reference": "tags/2.0.9/"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        "wpchefgadget": {
+            "type": "package",
+            "package": {
+                "name": "wpchefgadget/limit-login-attempts-reloaded",
+                "version": "2.9.0",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
+                    "type": "svn",
+                    "reference": "tags/2.9.0/"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+        "automattic": {
+            "type": "package",
+            "package": {
+                "name": "automattic/wp-super-cache",
+                "version": "1.7.3",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
+                    "type": "svn",
+                    "reference": "tags/1.7.3/"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        },
+		"wpwhitesecurity": {
+			"type": "package",
+            "package": {
+                "name": "wpwhitesecurity/wp-2fa",
+                "version": "1.6.1",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://plugins.svn.wordpress.org/wp-2fa/",
+                    "type": "svn",
+                    "reference": "tags/1.6.1/"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+		}
+    }
+}

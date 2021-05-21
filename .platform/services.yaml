@@ -1,0 +1,12 @@
+# The services of the project.
+#
+# Each service listed will be deployed
+# to power your Platform.sh project.
+
+db:
+    type: mariadb:10.4
+    disk: 1024
+rediscache:
+    type: redis-persistent:6.0
+    disk: 512
+
