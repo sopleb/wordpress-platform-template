@@ -1,6 +1,6 @@
-# WordPress (Composer) for Platform.sh (sopleb styled)
+# WordPress (Composer) for Platform.sh (sopleb style)
 
-This is my branch of the platform wordpress deploy. mainly utilizing post build scripts written by [keyboard2000](https://github.com/eyboard2000)
+This is my branch of the platform wordpress deploy. mainly utilizing post build scripts written by [keyboard2000](https://github.com/keyboard2000)
 
 <p align="center">
     <a href="#">
