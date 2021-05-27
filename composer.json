@@ -38,13 +38,13 @@
     "scripts": {},
     "extra": {
         "installer-paths": {
-            "wordpress/wp-content/plugins/{$name}": [
+            "composer/plugins/{$name}": [
                 "type:wordpress-plugin"
             ],
-            "wordpress/wp-content/themes/{$name}": [
+            "composer/themes/{$name}": [
                 "type:wordpress-theme"
             ],
-            "wordpress/wp-content/mu-plugins/{$name}": [
+            "composer/mu-plugins/{$name}": [
                 "type:wordpress-muplugin"
             ]
         }
