@@ -30,8 +30,10 @@ done
 # Installing Memcached
 ln -s -f ./plugins/redis-cache/includes/object-cache.php $rootdir/wp-content/
 
-# Move all plugins that are installed via composer to the plugins folder
-cp -R -f plugins/* $rootdir/wp-content/plugins
+# Move all plugins + themes + mu-lugins that are installed via composer to the plugins folder
+cp -R -f ./composer/plugins/* $rootdir/wp-content/plugins
+cp -R -f ./composer/mu-plugins/* $rootdir/wp-content/plugins
+cp -R -f ./composer/themes/* $rootdir/wp-content/plugins
 
 # Cleaning up composer
 # rm -Rf wp-content
