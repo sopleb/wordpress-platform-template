@@ -33,7 +33,8 @@
 	"kruss/redis-cache":"~2.0.9",
 	"automattic/wp-super-cache":"~1.7.3",
 	"wpchefgadget/limit-login-attempts-reloaded":"~2.9.0",
-	"wpwhitesecurity/wp-2fa":"~1.6.1"
+	"wpwhitesecurity/wp-2fa":"~1.6.1",
+	"wpackagist-plugin/hcaptcha-for-forms-and-more":"~1.9"
     },
     "scripts": {},
     "extra": {
@@ -54,6 +55,14 @@
             "type": "composer",
             "url": "https://wpackagist.org"
         },
+	"1": {
+            "type": "composer",
+	    "url":"https://wpackagist.org",
+	    "only": [
+		"wpackagist-plugin/*",
+		"wpackagist-theme/*"
+	    ]
+	},
         "sopleb": {
             "type": "vcs",
             "url": "https://github.com/sopleb/http-security"

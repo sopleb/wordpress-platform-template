@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1497ce9583c69c1ebbc331386e90d956",
+    "content-hash": "a3ce2c1b143f85c553d6297b62eaaef5",
     "packages": [
         {
             "name": "automattic/wp-super-cache",
@@ -4811,6 +4811,24 @@
                 "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.2.8"
             },
             "time": "2020-11-12T08:08:10+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/hcaptcha-for-forms-and-more",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/hcaptcha-for-forms-and-more/",
+                "reference": "tags/1.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/hcaptcha-for-forms-and-more.1.9.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/hcaptcha-for-forms-and-more/"
         },
         {
             "name": "wpchefgadget/limit-login-attempts-reloaded",
