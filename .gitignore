@@ -2,4 +2,6 @@
 /wordpress/
 /vendor/
 /composer/
-
+/themes/.themes
+/plugins/.plugins
+/mu-plugins/.must.use.plugins
