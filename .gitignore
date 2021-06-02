@@ -1,4 +1,4 @@
 *--dump.sql
-./wordpress/
-./vendor/
-./composer/
+/wordpress/
+/vendor/
+/composer/
