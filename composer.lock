@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3ed813d7ae57059ab08903281952d686",
+    "content-hash": "2e0cb182942e4b83fd2803c8f9b9ee15",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4787,6 +4787,24 @@
             "time": "2020-11-12T08:08:10+00:00"
         },
         {
+            "name": "wpackagist-plugin/akismet",
+            "version": "4.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
+                "reference": "tags/4.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/"
+        },
+        {
             "name": "wpackagist-plugin/code-snippets",
             "version": "2.14.1",
             "source": {
@@ -4803,6 +4821,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/code-snippets/"
+        },
+        {
+            "name": "wpackagist-plugin/contact-form-7",
+            "version": "5.4.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+                "reference": "tags/5.4.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.4.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/contact-form-7/"
         },
         {
             "name": "wpackagist-plugin/elementor",

@@ -40,7 +40,9 @@
 	"wpackagist-plugin/elementor":"~3.2",
 	"wpackagist-plugin/wordpress-seo":"~16.4",
 	"wpackagist-plugin/smart-slider-3":"~3.5",
-	"wpackagist-theme/hello-elementor":"*"
+	"wpackagist-theme/hello-elementor":"*",
+	"wpackagist-plugin/contact-form-7":"~5.4",
+	"wpackagist-plugin/akismet":"*"
     },
     "scripts": {},
     "extra": {
