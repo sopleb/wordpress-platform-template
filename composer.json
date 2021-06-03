@@ -34,7 +34,13 @@
 	"automattic/wp-super-cache":"~1.7.3",
 	"wpchefgadget/limit-login-attempts-reloaded":"~2.9.0",
 	"wpwhitesecurity/wp-2fa":"~1.6.1",
-	"wpackagist-plugin/hcaptcha-for-forms-and-more":"~1.9"
+	"wpackagist-plugin/hcaptcha-for-forms-and-more":"~1.9",
+	"wpackagist-plugin/code-snippets":"~2.9",
+	"wpackagist-plugin/wp-mail-smtp":"~2.8",
+	"wpackagist-plugin/elementor":"~3.2",
+	"wpackagist-plugin/wordpress-seo":"~16.4",
+	"wpackagist-plugin/smart-slider-3":"~3.5",
+	"wpackagist-theme/hello-elementor":"*"
     },
     "scripts": {},
     "extra": {
