@@ -7,6 +7,12 @@ name: app
 # The runtime the application uses.
 type: "php:7.4"
 
+# runtime extensions
+runtime:
+    extensions:
+        - redis
+        - newrelic
+
 # Configuration of the build of the application.
 build:
     flavor: composer
