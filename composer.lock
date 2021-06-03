@@ -4,21 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f7b86577556858eb7194f4cc7bc3937",
+    "content-hash": "3ed813d7ae57059ab08903281952d686",
     "packages": [
-        {
-            "name": "automattic/wp-super-cache",
-            "version": "1.7.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
-                "reference": "tags/1.7.3/"
-            },
-            "require": {
-                "composer/installers": ">=1.0"
-            },
-            "type": "wordpress-plugin"
-        },
         {
             "name": "composer/ca-bundle",
             "version": "1.2.9",
@@ -953,19 +940,6 @@
                 "source": "https://github.com/justinrainbow/json-schema/tree/5.2.10"
             },
             "time": "2020-05-27T16:41:55+00:00"
-        },
-        {
-            "name": "kruss/redis-cache",
-            "version": "2.0.9",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/redis-cache/",
-                "reference": "tags/2.0.9/"
-            },
-            "require": {
-                "composer/installers": ">=1.0"
-            },
-            "type": "wordpress-plugin"
         },
         {
             "name": "mck89/peast",
@@ -4867,6 +4841,42 @@
             "homepage": "https://wordpress.org/plugins/hcaptcha-for-forms-and-more/"
         },
         {
+            "name": "wpackagist-plugin/limit-login-attempts-reloaded",
+            "version": "2.22.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
+                "reference": "tags/2.22.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/limit-login-attempts-reloaded.2.22.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/limit-login-attempts-reloaded/"
+        },
+        {
+            "name": "wpackagist-plugin/redis-cache",
+            "version": "2.0.18",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/redis-cache/",
+                "reference": "tags/2.0.18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/redis-cache.2.0.18.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/redis-cache/"
+        },
+        {
             "name": "wpackagist-plugin/smart-slider-3",
             "version": "3.5.0.8",
             "source": {
@@ -4903,6 +4913,24 @@
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
         },
         {
+            "name": "wpackagist-plugin/wp-2fa",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-2fa/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-2fa.zip?timestamp=1622451461"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-2fa/"
+        },
+        {
             "name": "wpackagist-plugin/wp-mail-smtp",
             "version": "2.8.0",
             "source": {
@@ -4921,6 +4949,24 @@
             "homepage": "https://wordpress.org/plugins/wp-mail-smtp/"
         },
         {
+            "name": "wpackagist-plugin/wp-super-cache",
+            "version": "1.7.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-super-cache/",
+                "reference": "tags/1.7.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-super-cache.1.7.3.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-super-cache/"
+        },
+        {
             "name": "wpackagist-theme/hello-elementor",
             "version": "2.3.1",
             "source": {
@@ -4937,32 +4983,6 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/hello-elementor/"
-        },
-        {
-            "name": "wpchefgadget/limit-login-attempts-reloaded",
-            "version": "2.9.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/limit-login-attempts-reloaded/",
-                "reference": "tags/2.9.0/"
-            },
-            "require": {
-                "composer/installers": ">=1.0"
-            },
-            "type": "wordpress-plugin"
-        },
-        {
-            "name": "wpwhitesecurity/wp-2fa",
-            "version": "1.6.1",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/wp-2fa/",
-                "reference": "tags/1.6.1/"
-            },
-            "require": {
-                "composer/installers": ">=1.0"
-            },
-            "type": "wordpress-plugin"
         }
     ],
     "packages-dev": [],
