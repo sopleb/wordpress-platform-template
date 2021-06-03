@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e0cb182942e4b83fd2803c8f9b9ee15",
+    "content-hash": "b82c34733cef4e6ecd6bb464d387f08d",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -4788,21 +4788,40 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "4.1.9",
+            "version": "dev-trunk",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "tags/4.1.9"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.4.1.9.zip"
+                "url": "https://downloads.wordpress.org/plugin/akismet.zip?timestamp=1621012745"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/"
+            "homepage": "https://wordpress.org/plugins/akismet/",
+            "time": "2021-05-14T17:19:05+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/cache-control",
+            "version": "2.2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cache-control/",
+                "reference": "tags/2.2.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cache-control.2.2.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cache-control/"
         },
         {
             "name": "wpackagist-plugin/code-snippets",
@@ -5024,7 +5043,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/akismet": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
