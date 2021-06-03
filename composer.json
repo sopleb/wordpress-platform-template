@@ -48,14 +48,15 @@
   "scripts": {},
   "extra": {
     "installer-paths": {
+      "composer/mu-plugins/{$name}": [
+        "wpackagist-plugin/akismet",
+        "type:wordpress-muplugin"
+      ],
       "composer/plugins/{$name}": [
         "type:wordpress-plugin"
       ],
       "composer/themes/{$name}": [
         "type:wordpress-theme"
-      ],
-      "composer/mu-plugins/{$name}": [
-        "type:wordpress-muplugin"
       ]
     }
   },
